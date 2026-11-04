@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a href="login.html" class="btn btn-secondary mt-3 mb-3 float-right">Logout</a>
+        <h1 class="text-center mt-3 mb-3">Add News</h1>
+        <form>
+            <div class="form-group">
+                <label>Thumbnail</label>
+                <input type="text" class="form-control" placeholder="Enter thumbnail link" id="link">
+            </div>
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" class="form-control" placeholder="Enter title" id="title">
+            </div>
+            <div class="form-group">
+                <label>Content</label>
+                <textarea class="form-control" placeholder="Enter content" rows="5" id="content"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-primary" id="addNewsBtn">Add</button>
+                <a href="news.html" class="btn btn-danger">Back</a>
+            </div>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="js/add-news.js"></script>
+    
+</body>
+</html>
